@@ -53,10 +53,6 @@ main {
   gap: 20px;
 }
 
-.entrada {
-    
-}
-
 
 .botao {
     display: flex;
@@ -69,12 +65,54 @@ img {
 }
 
 
-
-
 div>input {
     display: block;
     margin: auto;
     border-radius: 20px;
     width: 450px;
     height: 25px;
+}
+
+footer {
+  background-color: #F2F2F2;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* esquerda e direita */
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.links-esquerda {
+  display: flex;
+  flex-direction: column; /* Brasil em cima, links embaixo */
+  gap: 5px;              /* espaço entre Brasil e os links */
+}
+
+.links-esquerda nav {
+  display: flex;
+  gap: 15px; /* espaço entre os links */
+}
+
+.links-esquerda p {
+  margin-left: 10px;
+  padding-bottom: 15px;
+}
+
+.termos {
+  display: flex;
+  gap: 15px;
+}
+
+.termos>a {
+  text-decoration: none;
+  color: #212121;
+}
+
+.termos>a:hover{
+  text-decoration: underline;
+}
+
+footer > p {
+  margin-bottom: 20px;
 }
